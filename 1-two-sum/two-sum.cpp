@@ -1,7 +1,6 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        //pegar o numero e tentar somar com todos a sua frente, se alguma soma bater com o target e ele.
         for(int i= 0; i < nums.size(); i++)
         {
             for(int j = i + 1; j < nums.size(); j++)
